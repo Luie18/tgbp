@@ -12,7 +12,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Invoice - TGBP</title>
+    <title>Invoice - Luigie's Feeds Store</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="dist/bootstrap/css/bootstrap.min.css">
@@ -25,23 +25,23 @@
 
         // prepare item prices (per kilogram)
         $item_prices = [
-            'Turingan'   => 260,
-            'Galunggong' => 180,
-            'Bangus'     => 175,
-            'Pusit'      => 480
+            'Pre-Starter feeds'   => 80,
+            'Starter feeds'       => 70,
+            'Grower feeds'        => 50,
+            'Finisher feeds'      => 45,
         ];
 
         // prepare mode prices
         $mode_prices = [
             'Pickup'   => 0,
-            'Delivery' => 20
+            'Delivery' => 30,
         ];
 
         // prepare preparation prices
         $preparation_prices = [
-            'Kinuskosan' => 10,
-            'Binadi'     => 15,
-            'Chopped'    => 5
+            'Naka Sako'       => 20,
+            'Naka Plastic'    => 5,
+            'Naka eco bag'    => 10,
         ];
 
 
